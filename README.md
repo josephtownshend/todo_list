@@ -1,7 +1,7 @@
 
-TODO MVP
+TODO MVC
 
-1. Add todo
+1. ~~Add todo~~
 2. Display todos
 3. Cross off todo
 4. Show number of active todos
