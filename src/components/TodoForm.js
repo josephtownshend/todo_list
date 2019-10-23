@@ -20,6 +20,9 @@ export default class TodoForm extends React.Component {
       text: this.state.text,
       complete: false
     });
+    this.setState({
+      text: ""
+    });
   };
 
   render() {
