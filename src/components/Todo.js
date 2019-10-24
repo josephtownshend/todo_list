@@ -3,7 +3,7 @@ import React from 'react';
 export default props => (
   <div
     style={{
-      textDecoration: 'line-through'
+      textDecoration: props.todo.complete ? 'line-through' : ""
     }}
     onClick={props.toggleComplete}
   >
