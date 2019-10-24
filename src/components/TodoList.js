@@ -6,7 +6,8 @@ export default class TodoList extends React.Component {
 
   state = {
     todos: [],
-    todosToShow: 'all'
+    todosToShow: 'all',
+    toggleAllComplete: true
   };
 
   addTodo = (todo) => {
@@ -80,7 +81,23 @@ export default class TodoList extends React.Component {
         </div>
           {this.state.todos.some(todo => todo.complete) ? (<div>
             <button onClick={this.removeAllTodosThatAreComplete}>remove all complete todos</button>
-          </div>) : null}
+          </div>
+        ) : null}
+          <div>
+            <button
+              onClick={() =>
+                this.setState({
+                  todos: this.state.todos.map(todo => ({
+                    ...todo,
+                    complete: this.state.toggleAllComplete
+                  })),
+                  toggleAllComplete: !this.state.toggleAllComplete
+                })
+              }
+            >
+              toggle all complete:{` ${this.state.toggleAllComplete}`}
+            </button>
+          </div>
       </div>
     );
   }
