@@ -9,7 +9,7 @@ TODO MVC
 6. ~~delete todo~~
 7. ~~delete all complete~~
   7.1 ~~only show if at least one is complete~~
-8. button to toggle all on/off  
+8. ~~button to toggle all on/off~~
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
