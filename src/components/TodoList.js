@@ -40,6 +40,7 @@ export default class TodoList extends React.Component {
             todo={todo}
           />
         ))}
+        <div>active todos: {this.state.todos.filter(todo => !todo.complete).length}</div>
       </div>
     );
   }
