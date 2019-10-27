@@ -1,4 +1,7 @@
-Todo list App built using React - follow along with https://www.youtube.com/watch?v=I6IY2TqnPDA&list=PLN3n1USn4xlntqksY83W3997mmQPrUmqM&index=16
+# Todo List App
+
+Todo list App built using React - follow along with <br> 
+https://www.youtube.com/watch?v=I6IY2TqnPDA&list=PLN3n1USn4xlntqksY83W3997mmQPrUmqM&index=16
 
 TODO MVC
 
